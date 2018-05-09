@@ -41,7 +41,6 @@ class App < Sinatra::Base
     else
       answer = "Unable to perform this operation"
     end
-    puts "#{answer.to_s}"
   end
 
 end
