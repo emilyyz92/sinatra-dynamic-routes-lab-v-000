@@ -39,7 +39,7 @@ class App < Sinatra::Base
     else
       answer = "Unable to perform this operation"
     end
-    answer.to_s
+    puts "#{answer.to_s}"
   end
 
 end
