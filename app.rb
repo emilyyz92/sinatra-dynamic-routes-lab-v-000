@@ -31,7 +31,7 @@ class App < Sinatra::Base
 
     if operation == "add"
       answer = number1 + number2
-      binding.pry
+      puts "#{answer}"
     elsif operation == "subtract"
       answer = number1 - number2
     elsif operation == "multiply"
