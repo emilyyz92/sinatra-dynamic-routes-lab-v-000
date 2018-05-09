@@ -34,10 +34,13 @@ class App < Sinatra::Base
       puts "#{answer}"
     elsif operation == "subtract"
       answer = number1 - number2
+      puts "#{answer}"
     elsif operation == "multiply"
       answer = number1 * number2
+      puts "#{answer}"
     elsif operation == "divide"
       answer = number1 / number2
+      puts "#{answer}"
     else
       answer = "Unable to perform this operation"
     end
